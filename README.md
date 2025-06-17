@@ -1,4 +1,4 @@
-Endless Space
+Endless Sky Online
 ===
 
 A multiplayer 2D top-down space adventure, combat and economy game heavily inspired by [Endless Sky](https://endless-sky.github.io/).

@@ -1,3 +1,3 @@
-module github.com/jessehorne/endlessspace
+module github.com/jessehorne/endlessskyonline
 
 go 1.24.3
