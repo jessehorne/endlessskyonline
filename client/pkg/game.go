@@ -19,6 +19,14 @@ func NewGame() *Game {
 	}
 }
 
+func (g *Game) Init() error {
+	err := ui.LoadDefaultFonts()
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
 func (g *Game) Update() error {
 	return nil
 }

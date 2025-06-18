@@ -1,8 +1,9 @@
-package drawables
+package widgets
 
 import (
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/text/v2"
+	"github.com/jessehorne/endlessskyonline/client/pkg/ui"
 	"image/color"
 )
 
@@ -19,7 +20,7 @@ func NewText(x float64, y float64, data string) *Text {
 		X:     x,
 		Y:     y,
 		Data:  data,
-		Font:  nil,
+		Font:  ui.TextFaces["roboto-32"],
 		Color: color.White,
 	}
 }
